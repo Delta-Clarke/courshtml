@@ -1,0 +1,55 @@
+body {
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: Consolas;
+    background: rgb(255,212,53);
+    background: linear-gradient(8deg, rgba(255,212,53,1) 50%, rgba(34,193,195,1) 50%, rgba(0,240,244,1) 54%);
+
+}
+h1,h2,h3,h5 {
+          color: ghostwhite;
+      }
+h1{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.erreur{
+    color: crimson;
+}
+#val {
+    color: indigo;
+}
+textarea :focus{
+    color: forestgreen;
+    font-size: small;
+}
+a :hover{
+    text-transform: uppercase;
+}
+p ::first-letter{
+    color: green;
+    font-size: 140%;
+}
+div{
+    align-content: center;
+}
+iframe{
+    align-content: center;
+}
+#tv {
+    position: relative;
+    width: 480px;
+    height: 380px;
+    background: white;
+    border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+    color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    transition: all .4s ease;
+}
+#tv:hover {
+    border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+    box-shadow: 10px 10px rgba(0,0,0,.25);
+}

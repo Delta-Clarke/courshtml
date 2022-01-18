@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link ref="stylesheet" href="style.css">
+    <title>Cours HTML</title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+<H2>Structure d'une page</H2>
+<nav>Les menus...</nav>
+<header>Ici pour un bandeau, logo</header>
+<p>C'est bientôt l'heure de manger !</p>
+
+<!--Un commentaire
+sur plusieurs ligne-->
+
+<main> Le contenu au sens large</main>
+
+<iframe src="https://metar-taf.com/fr/embed/LFLX?bg_color=0057a3&layout=landscape"
+        frameBorder="0" width="366"
+        height="255" scrolling="no"></iframe>
+
+<iframe src="https://metar-taf.com/fr/embed/LFLX?bg_color=0057a3"
+        frameBorder="0" width="250"
+        height="380" scrolling="no"></iframe>
+
+<article> du contenu / article de blog / elle peut contenir une <b> entête </b>et un pied de page </article>
+
+<aside> Complément d'informations / <a href="www.google.com" target="_blank"> En savoir plus</a> </aside>
+
+
+
+<details> <SUMMARY>Titre...</SUMMARY> Complément nescéssaire </details>
+
+<table>
+    <tr>
+        <td> 1er l / 1c </td><td>1er l /2nd c</td>
+
+    </tr>
+    <br>
+    <hr>
+    <tr>
+        <hr>
+    </tr>
+    <tr>
+        <td> 2nd l / 1c</td><td>2nd l / 2nd c</td>
+    </tr>
+<!--Tableau-->
+</table>
+
+<div> Balise générique </div>
+<div> Suite </div>
+
+<span> Balise générique </span> suite du texte. (Balise de type inline)
+
+<a href="www.google.fr"> Rechercher &target; </a>
+<br>
+<a href="Toto.html">Fichier01</a>
+
+<!--Les listes-->
+<ol>
+    <li>Test</li>
+    <li>test2</li>
+</ol>
+
+<ul>
+    <li>test</li>
+    <li>test2</li>
+</ul>
+
+<!-- Les définitions -->
+
+<dl>
+    <dt>Titre</dt>
+    <dd>La définition</dd>
+</dl>
+
+<p><b>le gras en B</b> vs <strong>le gras en Strong</strong> vs <em>l'italique</em></p>
+
+
+<!-- Tableau 2 / Relations entre l'entête et le corp du tableau-->
+
+<table>
+    <caption> Descriptif / Legende du tableau </caption>
+    <thead>
+        <tr>
+            <th id="info01">...</th><th id="Info2">...</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td headers="info01">...</td><td headers="Info2">...</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">...</td> <!-- fusion des cellules / rowspan=''x'' Fusion des lignes. -->
+        </tr>
+    </tfoot>
+</table>
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/e19drhtkpte0qpvz" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="padding:8px;text-align:right;margin:0;"><a href="https://padlet.com?ref=embed" style="padding:0;margin:0;border:none;display:block;line-height:1;height:16px" target="_blank"><img src="https://padlet.net/embeds/made_with_padlet.png" width="86" height="16" style="padding:0;margin:0;background:none;border:none;display:inline;box-shadow:none" alt="Fait avec Padlet"></a></div></div>
+
+<footer>Mention légales / plan de site &copy; Metar&TRADE;</footer>
+
+</body>
+
+
+</html>
